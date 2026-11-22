@@ -1,18 +1,12 @@
 <html>
 <body>
-<h2>Event Registration form</h2>
-<form>
-Name:<input type="text" required<br><br>
-Email:<input type="email" required><br><br>
-Phone_No:<input type="tel"><br><br>
-Event:
-<select>
-<option>Workshop</option>
-<option>Webinar</option>
-<option>Class</option>
-</select>
-<input type="submit" value="register">
-<input type="reset" value="clear">
-</form>
+<h3 id="msg">Hello World</h3>
+<button onclick="test()">Click Me</button>
+
+<script>
+function test() {
+  document.getElementById("msg").innerHTML = "Testing Successful";
+}
+</script>
 </body>
 </html>
