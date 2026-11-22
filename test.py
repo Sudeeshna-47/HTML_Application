@@ -8,6 +8,7 @@ print("HTML file path:", file_path)
 print("File exists:", file_path.exists())
 
 driver.get(file_path.as_uri())
+print("SELENIUM TEST")
 
 print("Page title:", driver.title)
 print("Page source:", driver.page_source)
